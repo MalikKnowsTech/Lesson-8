@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Malik Lisbon">
+    <meta name="description" content="This page contains all the things I learn how to create in HTML.">
+    <title>My First Web Page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>My Goals for the Year</h1>
+
+
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a Vacation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+    <main>
+        <article id="html">
+            <h2>I'm Ready to Learn HTML!</h2>
+            <p>This is my first web page.</p>
+            <img src="img/html-logo.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
+            <section>
+                <h3>HTML5</h3>
+                <figure>
+                    <figcaption>An Example of HTML5 code</figcaption>
+                    <p>
+                        <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                    </p>
+                </figure>
+            </section>
+
+            <section>
+                <h3>My Resources</h3>
+                <p>Here's how I've learned so much about web dev:</p>
+                <ol>
+                    <li>...Udemy has great courses for as low as $13.</li>
+                    <li>...freecodecamp</li>
+                    <li>...And of course, I attend Youtube University.</li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+                        <p> I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H">3
+                                hours</time> every morning.</p>
+                    </details>
+                </aside>
+                <br>
+                <table>
+                    <caption>My Daily Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Morning</th>
+                            <td>
+                                <time datetime="08:00">8am</time> - <time datetime="11:00"> 11am</time>
+                            </td>
+                            <td>Write Code</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Break</th>
+                            <td>
+                                <time datetime="11:00">11am</time> - <time datetime="12:00"> 12pm</time>
+                            </td>
+                            <td>Eat Lunch</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Afternoon</th>
+                            <td>
+                                <time datetime="12:00">12m</time> - <time datetime="17:00"> 5pm</time>
+                            </td>
+                            <td>Study for Other Courses</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Evening</th>
+                            <td rowspan="2">All Other Times</td>
+                            <td>Free Time</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Night</th>
+                            <td>Sleep</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">And that's what I do every day, 5 days a week.</td>
+                            </tr>
+                        </tfoot>
+                </table>
+            </section>
+
+        </article>
+        <hr>
+
+
+        <article id="vacation">
+
+            <h2>I'm also going on a trip to Jamaica!</h2>
+            <img src="img/sandals-montego-bay.jpeg" alt="Jamaica Resort" title="I'm going to Montego Bay in Jamaica."
+                width="600" height="400" loading="lazy">
+
+            <p>I passed my <abbr title="Amazon Web Services">
+                    <a href="https://aws.amazon.com/?nc2=h_lg"> AWS </a> </abbr>
+                Certified Cloud Practitioner exam in January and studied Python from February to March, so
+                <em> I really need a getaway.</em>
+
+            </p>
+            <p>I'm from the Bronx but I went to college upstate and now I live in <abbr title="New Jersey"> NJ. </abbr>
+            </p>
+
+            <!-- TODO: Add more places-->
+
+            <section>
+                <h3>Places I'd Like to Visit:</h3>
+                <ol>
+                    <li>Barbados!!!</li>
+                    <li>Ghana</li>
+                    <li>London</li>
+                </ol>
+
+
+                <ul>
+                    <li>
+                        <p>I've also heard good things about Mexico</p>
+                        <figure>
+                            <img src="img/cancun-nightclubs-zone.jpeg" alt="Cancun Nightclub" loading="lazy">
+                            <figcaption>
+                                CocoBongo Nightclub
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+
+                        <p>While I'm there, I'd also check out:</p>
+                        <address>
+                            Margaritaville Island Reserve Riviera Cancún <br>
+                            Bahia Petempich Puerto Morelos, Mexico <br>
+                            Colonia Morelos, Mexico 77580
+                        </address>
+                        <figure>
+                            <img src="img/drinks-on-beach.jpeg" width="640" height="640" loading="lazy"
+                                title="It's 5 o'Clock Somewhere!">
+                            <figcaption>
+                                It's 5 o'Clock Somewhere!
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+            <h3>Places I'd Like to Avoid:</h3>
+            <dl>
+                <dt>Antartica</dt>
+                <dd> I hear this is <strong>cold</strong></dd>
+
+                <dt>Greenland</dt>
+                <dd>Also cold.</dd>
+
+                <dt>North Pole</dt>
+                <dd>..You see where I'm going with this?</dd>
+
+            </dl>
+            </section>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>
+            &lt;&lt;&lt;&copy; <a href="about.html"> Malik Lisbon </a>&gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
+</body>
+
+</html>
